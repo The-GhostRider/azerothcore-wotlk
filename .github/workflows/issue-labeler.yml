@@ -5,12 +5,12 @@ on:
 
 jobs:
   issue_labeler:
-    if: github.repository == 'azerothcore/azerothcore-wotlk' && !github.event.pull_request.draft
+    if: github.repository == 'The-GhostRider/GR-PRJ_AzerothCore-Wotlk2.0' && !github.event.pull_request.draft
     runs-on: ubuntu-latest
     name: Issue Labeler
     steps:
     - name: Issue Labeler
       id: issue-labeler
-      uses: azerothcore/GitHub-Actions@issue-labeler-1.0.2
+      uses: The-GhostRider/GitHub-Actions@issue-labeler-1.0.2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}

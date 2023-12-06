@@ -10,7 +10,7 @@ jobs:
       fail-fast: false
     runs-on: ubuntu-20.04
     permissions: write-all
-    if: github.repository == 'azerothcore/azerothcore-wotlk' && !github.event.pull_request.draft
+    if: github.repository == 'The-GhostRider/GR-PRJ_AzerothCore-Wotlk2.0' && !github.event.pull_request.draft
     steps:
       - uses: actions/checkout@v4
         with:
