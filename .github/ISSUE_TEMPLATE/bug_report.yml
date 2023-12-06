@@ -184,6 +184,6 @@ body:
     attributes:
       label: Server
       value: |
-        ChromieCraft
+        LastRevenge
     validations:
       required: false
