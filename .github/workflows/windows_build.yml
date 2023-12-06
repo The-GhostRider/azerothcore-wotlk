@@ -19,7 +19,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.os }}
     env:
-      BOOST_ROOT: C:\local\boost_1_82_0
+      BOOST_ROOT: E:\boost_1_82_0
     if: |
       github.repository == 'The-GhostRider/GR-PRJ_AzerothCore-Wotlk2.0'
       && !github.event.pull_request.draft
